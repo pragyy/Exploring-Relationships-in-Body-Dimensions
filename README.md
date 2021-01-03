@@ -15,6 +15,7 @@ This dataset contains 21 body dimension measurements as well as age, weight, hei
 ### Data Source:
 
 Measurements were initially taken by the first two authors - Grete Heinz and Louis J. Peterson - at San Jose State University and at the U.S. Naval Postgraduate School in Monterey, California. Later, measurements were taken at dozens of California health and fitness clubs by technicians under the supervision of one of these authors.
+
 Dataset Link : http://jse.amstat.org/jse_data_archive.htm
 
 ### Data Columns:
@@ -80,6 +81,7 @@ To calculate the least squares line, we need to calculate the following values f
 
 The calculation then is: 
 > slope=(N * sumXY - (sumX * sumy))/(N * sumXSquared - (sumx)^2) 
+
 > intercept = (sumy - (slope * sumx))/N 
 
 We will also then calculate the correlation coefficient, and indication of how “linear” the points are (how much, in total, the points are correlated as a line). 
